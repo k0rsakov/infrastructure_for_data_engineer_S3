@@ -4,7 +4,8 @@ import pandas as pd
 from cred import s3_minio_access_key, s3_minio_secret_key
 
 bucket_name = 'test-local-bucket'
-file_name = 'titanic.csv'
+# file_name = 'titanic.csv'
+file_name = 'raw/kaggle/2022-04-01/titanic.csv'
 
 df = pd.read_csv('https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv')
 
